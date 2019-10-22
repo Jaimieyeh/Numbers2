@@ -21,7 +21,7 @@ import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
     private TextView number;
-    ImageView result;
+    ImageView result ;
     int counter;
     int secret = new Random().nextInt(10) + 1;
     @Override
